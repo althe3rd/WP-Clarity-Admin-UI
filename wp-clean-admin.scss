@@ -269,10 +269,30 @@ a {
 	/*margin-top: -32px;*/
 }
 
-#wpcontent, #wpfooter {
+div#wpcontent, #wpfooter {
 	/*margin-left: 1.5em;*/
 	transition: 0.4s;
 	margin-left: 230px;
+}
+
+.jetpack-connected div#wpcontent {
+	margin-left: 200px;
+}
+
+.jetpack-connected .page-content {
+	/*background: #fff;*/
+}
+
+.jp-content .header {
+	background: transparent;
+}
+
+.jp-content .clouds-sm, .jp-content .footer {
+	display: none;
+}
+
+.modal-footer {
+	color: #2b2b2b;
 }
 
 /*.update-core-php #wpcontent {

@@ -290,11 +290,28 @@ a {
   font-weight: 500;
 }
 
-#wpcontent,
+div#wpcontent,
 #wpfooter {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   margin-left: 230px;
+}
+
+.jetpack-connected div#wpcontent {
+  margin-left: 200px;
+}
+
+.jp-content .header {
+  background: transparent;
+}
+
+.jp-content .clouds-sm,
+.jp-content .footer {
+  display: none;
+}
+
+.modal-footer {
+  color: #2b2b2b;
 }
 
 div.error {
