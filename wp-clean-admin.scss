@@ -601,6 +601,33 @@ table.wp-list-table {
 	border: 1px solid rgba(255,255,255,0);
 }
 
+.plugins tr {
+	background: none;
+}
+
+.plugins .active td, .plugins .active th {
+	background: rgba(255,255,255,0.2);
+}
+
+.plugins tr.active+tr.inactive td, .plugins tr.active+tr.inactive th, .plugins tr.active.plugin-update-tr+tr.inactive td, .plugins tr.active.plugin-update-tr+tr.inactive th {
+	box-shadow: none;
+}
+
+.plugins .desc p {
+	color: rgba(255,255,255,0.5);
+}
+
+.plugin-title strong {
+	color: rgba(255,255,255,0.9);
+}
+
+tr.active+tr.plugin-update-tr .plugin-update {
+	background: rgba(255,255,255,0.2);
+}
+tr.active+tr.plugin-update-tr .plugin-update .update-message {
+	background: none;
+}
+
 /*#wp-content-editor-container div.mce-panel {
 	background: rgba(255,255,255,0.6);
 	color: rgba(0,0,0,0.8);
