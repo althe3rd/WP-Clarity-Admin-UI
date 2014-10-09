@@ -203,8 +203,24 @@ $( "#wpbody a" ).each(function( index ) {
 //$("#wpcontent").prepend('<div id="splash"></div>');
  
  
- //$("#adminmenu").prepend('<li class="wp-not-current-submenu wp-menu-separator"><h3 class="dashboard">Dashboard</h3><p>Get a view of everything in wordpress from the dashboard.</p></li>');
+ //$("#adminmenu .wp-menu-separator").first().after('<li class="sectionLabel"><h3 class="dashboard">Content</h3></li>');
+
+ //$("#adminmenu .wp-menu-separator:nth-child(1)").after('<li class="sectionLabel"><h3 class="dashboard">Settings</h3></li>');
  
+$("#adminmenu .wp-menu-separator").each(function(index) {
+	if(index == 0) {
+		$(this).after('<li class="sectionLabel"><h3 class="dashboard">Content</h3></li>');
+	}
+
+	if(index == 1) {
+		$(this).after('<li class="sectionLabel"><h3 class="dashboard">Settings</h3></li>');
+	}
+
+	if(index == 2) {
+		$(this).after('<li class="sectionLabel"><h3 class="dashboard">Extras</h3></li>');
+	}
+});
+
  var siteurl = $("#wp-admin-bar-site-name a").attr("href");
  var sitename = $("#wp-admin-bar-site-name a").first().text();
  

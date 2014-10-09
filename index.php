@@ -17,6 +17,9 @@ function my_admin_theme_style() {
 		plugins_url( 'js/wp-clean-admin-master.min.js' , __FILE__ ),
 		array( 'jquery' )
 	);
+
+	/*$current_color = get_user_option( 'admin_color' );
+	echo $current_color;*/
 }
 add_action('admin_enqueue_scripts', 'my_admin_theme_style');
 add_action('login_enqueue_scripts', 'my_admin_theme_style');

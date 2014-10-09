@@ -19,6 +19,74 @@ body {
   margin-top: -32px;
 }
 
+.admin-color-midnight #wpwrap {
+  background: url("img/dashboard_bg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.admin-color-blue #wpwrap {
+  background: url("img/dashboard_bg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.admin-color-coffee #wpwrap {
+  background: url("img/dashboard_bg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.admin-color-ocean #wpwrap {
+  background: url("img/dashboard_bg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.admin-color-sunrise #wpwrap {
+  background: url("img/dashboard_bg_sunrise.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.admin-color-light #wpwrap {
+  background: url("img/dashboard_bg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.admin-color-ectoplasm #wpwrap {
+  background: url("img/dashboard_bg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.wp-menu-separator .separator {
+  background: rgba(255,255,255,0.2);
+  height: 1px;
+}
+
+#adminmenu li.sectionLabel {
+  padding: 1em;
+  cursor: default;
+}
+
+#adminmenu li.sectionLabel h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgba(255,255,255,0.3);
+}
+
+#adminmenu div.separator {
+  height: 1px;
+}
+
+.color-option.selected,
+.color-option:hover {
+  background: rgba(255,255,255,0.2);
+  border-radius: 3px;
+}
+
 .Chrome #wpwrap,
 .Safari #wpwrap {
   margin-top: -32px;
@@ -26,6 +94,38 @@ body {
 
 .attachment-details a {
   color: #999;
+}
+
+.progress-content,
+#acf-upgrade-notice {
+  color: #2b2b2b;
+}
+
+.progress-content h1,
+.progress-content h2,
+.progress-content h3,
+.progress-content h4,
+.progress-content p,
+#acf-upgrade-notice h1,
+#acf-upgrade-notice h2,
+#acf-upgrade-notice h3,
+#acf-upgrade-notice h4,
+#acf-upgrade-notice p {
+  color: #2b2b2b;
+}
+
+.progress-content .wp-core-ui .button,
+.progress-content .wp-core-ui .button-secondary,
+.progress-content .submitbox a.submitdelete,
+#acf-upgrade-notice .wp-core-ui .button,
+#acf-upgrade-notice .wp-core-ui .button-secondary,
+#acf-upgrade-notice .submitbox a.submitdelete {
+  border: rgba(0,0,0,0.3);
+  color: #2b2b2b;
+}
+
+#acf-upgrade-notice {
+  margin-left: -30px;
 }
 
 h2 {
