@@ -7,14 +7,14 @@
 
 body {
 	font-family: "Raleway";
-	perspective: none;
+	/*perspective: none;*/
 	
 	font-weight: 300;
 	color: rgba(255,255,255,0.7);
 }
 
 #wpwrap {
-	perspective: 1400px;
+	/*perspective: 1400px;*/
 	background: url("img/dashboard_bg.jpg");
 	background-size: cover;
 	margin-top: -32px;
@@ -249,6 +249,7 @@ z-index:5;
 
 #adminmenuback { 
 	background: rgba(0,0,0,0.5);
+	z-index: 0;
 }
 
 #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top {
@@ -428,7 +429,7 @@ div.error, div.updated {
 #wpadminbar {
 	/*border-bottom: 1px solid rgba(255,255,255,0.25);*/
 	background: rgba(0,0,0,0.3);
-	z-index:50;
+	/*z-index:50;*/
 }
 
 #wpcontent.menuopen, #wpfooter.menuopen {
@@ -630,7 +631,7 @@ input[type=checkbox], input[type=color], input[type=date], input[type=datetime-l
 	transform: rotateY(0deg);	
 	box-sizing: border-box;
 	animation-fill-mode: forwards; 
-	animation-delay:3.1s;
+	animation-delay:1.1s;
 }
 
 .anim:nth-child(2) {
@@ -641,7 +642,7 @@ input[type=checkbox], input[type=color], input[type=date], input[type=datetime-l
 	transform: rotateY(0deg);	
 	box-sizing: border-box;
 	animation-fill-mode: forwards; 
-	animation-delay:3.3s;
+	animation-delay:1.3s;
 }
 
 .anim:nth-child(3) {
@@ -652,7 +653,7 @@ input[type=checkbox], input[type=color], input[type=date], input[type=datetime-l
 	transform: rotateY(0deg);	
 	box-sizing: border-box;
 	animation-fill-mode: forwards; 
-	animation-delay:3.8s;
+	animation-delay:1.8s;
 }
 
 .anim:nth-child(4) {
@@ -663,7 +664,7 @@ input[type=checkbox], input[type=color], input[type=date], input[type=datetime-l
 	transform: rotateY(0deg);	
 	box-sizing: border-box;
 	animation-fill-mode: forwards; 
-	animation-delay:3.1s;
+	animation-delay:1.1s;
 }
 
 .anim:nth-child(5) {
@@ -674,7 +675,7 @@ input[type=checkbox], input[type=color], input[type=date], input[type=datetime-l
 	transform: rotateY(0deg);	
 	box-sizing: border-box;
 	animation-fill-mode: forwards; 
-	animation-delay:3.6s;
+	animation-delay:1.6s;
 }
 
 
@@ -686,7 +687,7 @@ input[type=checkbox], input[type=color], input[type=date], input[type=datetime-l
 	transform: rotateY(0deg);	
 	box-sizing: border-box;
 	animation-fill-mode: forwards; 
-	animation-delay:3.3s;
+	animation-delay:1.3s;
 }
 
 

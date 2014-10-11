@@ -51,16 +51,16 @@ $("#filter-by-options").click(function(e) {
  $(".greeting").removeClass("show");
  setTimeout(function() {
  	 $(".greeting").hide();
- },2000);
+ },600);
 
- },2000);
+ },600);
  
  $(".postbox").addClass("anim");
  
  setTimeout(function() {
 	$(".postbox").removeClass("anim");	 
 	$(".postbox").css("opacity","1");
- },5000)
+ },3000)
  
  var time1;
  
