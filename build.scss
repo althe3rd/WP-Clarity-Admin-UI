@@ -66,6 +66,19 @@ body {
   height: 1px;
 }
 
+div.cf-admin-column-view-wrap {
+  background: rgba(0,0,0,0.5);
+}
+
+div.cf-admin-column-view-wrap a.add,
+div.cf-admin-column-view-wrap .edit a {
+  background: rgba(0,0,0,0.2);
+}
+
+div.cf-admin-column-view-wrap .cf-admin-column-view-column {
+  background: rgba(0,0,0,0.2);
+}
+
 #adminmenu li.sectionLabel {
   padding: 1em;
   cursor: default;
@@ -331,7 +344,7 @@ ul.category-tabs li.tabs,
 
 #adminmenu div.wp-menu-name,
 div.wp-menu-image:before {
-  padding: 16px 0;
+  padding: 12px 12px;
 }
 
 #adminmenu .wp-submenu-head,
@@ -362,7 +375,20 @@ div.wp-menu-image:before {
 #adminmenu li.menu-top:hover,
 #adminmenu li.opensub>a.menu-top,
 #adminmenu li>a.menu-top:focus {
-  background: transparent;
+  background: rgba(255,255,255,0.05);
+}
+
+.gadash-online {
+  background: transparent !important;
+  color: rgba(255,255,255,0.6) !important;
+}
+
+#ga_dash_statsdata svg rect {
+  fill: transparent !important;
+}
+
+#ga_dash_statsdata svg text {
+  fill: rgba(255,255,255,0.4);
 }
 
 input[type=checkbox],
